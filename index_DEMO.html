@@ -410,14 +410,14 @@ tr:last-child td{border-bottom:none;font-weight:700;background:#F7FAFC}
 ══════════════════════════════════════════════ */
 const CLIENTS_DB = {
   "anjo": {
-    displayName: "Anjo Tintas",
+    displayName: "Cliente Demonstração",
     units: [
       { id:"u1", name:"Unidade 1 e 3", color:"#00B4D0", data:[
-        {label:"Jan/25",mwh:188.037,dist:45994.03,forn:51217.9,ccee:0,livre:97211.93,cativo:97211.93,eco:0,eco_pct:0,cm:516.98},
-        {label:"Fev/25",mwh:183.456,dist:47371.05,forn:49904.95,ccee:0,livre:97276,cativo:97276,eco:0,eco_pct:0,cm:530.24},
+        {label:"Jan/25",mwh:188.037,dist:45994.03,forn:51217.9,ccee:0.0,livre:97211.93,cativo:97211.93,eco:0.0,eco_pct:0.0,cm:516.98},
+        {label:"Fev/25",mwh:183.456,dist:47371.05,forn:49904.95,ccee:0.0,livre:97276.0,cativo:97276.0,eco:0.0,eco_pct:0.0,cm:530.24},
         {label:"Mar/25",mwh:185.947,dist:49261.3,forn:49466.24,ccee:6095.54,livre:104823.08,cativo:135277.51,eco:30454.43,eco_pct:0.225126,cm:563.73},
-        {label:"Abr/25",mwh:182.468,dist:49430.47,forn:49753.98,ccee:0,livre:99184.45,cativo:134792.11,eco:35607.66,eco_pct:0.264167,cm:543.57},
-        {label:"Mai/25",mwh:198.549,dist:51798.38,forn:54121,ccee:1502.58,livre:107421.96,cativo:148281.0,eco:40859.04,eco_pct:0.275551,cm:541.04},
+        {label:"Abr/25",mwh:182.468,dist:49430.47,forn:49753.98,ccee:0.0,livre:99184.45,cativo:134792.11,eco:35607.66,eco_pct:0.264167,cm:543.57},
+        {label:"Mai/25",mwh:198.549,dist:51798.38,forn:54121.0,ccee:1502.58,livre:107421.96,cativo:148281.0,eco:40859.04,eco_pct:0.275551,cm:541.04},
         {label:"Jun/25",mwh:195.855,dist:51172.94,forn:56115.86,ccee:4427.87,livre:111716.67,cativo:152252.79,eco:40536.12,eco_pct:0.266242,cm:570.41},
         {label:"Jul/25",mwh:208.112,dist:52811.28,forn:56368.22,ccee:4763.96,livre:113943.46,cativo:154482.83,eco:40539.37,eco_pct:0.26242,cm:547.51},
         {label:"Ago/25",mwh:224.857,dist:58594.45,forn:63297.33,ccee:4089.14,livre:125980.92,cativo:182310.59,eco:56329.66,eco_pct:0.308976,cm:560.27},
@@ -425,22 +425,19 @@ const CLIENTS_DB = {
         {label:"Out/25",mwh:240.262,dist:75082.27,forn:67356.98,ccee:3646.79,livre:146086.04,cativo:205915.87,eco:59829.83,eco_pct:0.290555,cm:608.03},
         {label:"Nov/25",mwh:225.541,dist:74427.58,forn:67424.81,ccee:3619.08,livre:145471.47,cativo:203749.85,eco:58278.37,eco_pct:0.286029,cm:644.99},
         {label:"Dez/25",mwh:224.093,dist:71746.82,forn:66459.54,ccee:3649.97,livre:141856.33,cativo:187990.45,eco:46134.12,eco_pct:0.245407,cm:633.02},
-        {label:"Jan/26",mwh:216.999,dist:67196.37,forn:56051.53,ccee:4624.58,livre:127872.48,cativo:171967.29,eco:44094.81,eco_pct:0.256414,cm:589.28},
+        {label:"Jan/26",mwh:216.999,dist:67196.37,forn:56051.53,ccee:4624.58,livre:127872.48,cativo:181488.68,eco:53616.2,eco_pct:0.295424,cm:589.28},
         {label:"Fev/26",mwh:215.586,dist:65822.81,forn:63331.85,ccee:9400.48,livre:138555.14,cativo:167498.71,eco:28943.58,eco_pct:0.172799,cm:642.69},
-        {label:"Mar/26",mwh:270.691,dist:77258.05,forn:88482.27,ccee:8204.99,livre:173945.31,cativo:201920.34,eco:27975.03,eco_pct:0.138545,cm:642.6},
-        {label:"Abr/26",mwh:243.788,dist:70629.29,forn:66204.64,ccee:9063.81,livre:145897.74,cativo:183423.39,eco:37525.65,eco_pct:0.204585,cm:598.46},
-        {label:"Mai/26",mwh:259.05,dist:78422.49,forn:70855.99,ccee:11840.01,livre:161118.49,cativo:207562.86,eco:46444.37,eco_pct:0.22376,cm:621.96},
-        {label:"Jun/26",mwh:251.745,dist:82623.69,forn:65010.58,ccee:10648.7,livre:158282.97,cativo:213077.32,eco:54794.35,eco_pct:0.257157,cm:628.74},
-        {label:"Jul/26",mwh:247.774,dist:80222.07,forn:61376.93,ccee:9356.94,livre:150955.94,cativo:210488.89,eco:59532.95,eco_pct:0.282832,cm:609.25},
-        {label:"Ago/26",mwh:239.712,dist:82167.52,forn:59284.82,ccee:7946.85,livre:149399.19,cativo:212054.81,eco:62655.62,eco_pct:0.295469,cm:623.24}
+        {label:"Mar/26",mwh:266.956,dist:77258.05,forn:88482.27,ccee:8204.99,livre:173945.31,cativo:201920.35,eco:27975.03,eco_pct:0.138545,cm:651.59},
+        {label:"Abr/26",mwh:241.611,dist:70629.29,forn:66204.64,ccee:9063.81,livre:145897.74,cativo:183423.4,eco:37525.65,eco_pct:0.204585,cm:603.85},
+        {label:"Mai/26",mwh:256.657,dist:78422.49,forn:70855.99,ccee:11840.01,livre:161118.49,cativo:207562.85,eco:46444.37,eco_pct:0.22376,cm:627.76}
       ]},
       { id:"u2", name:"Unidade 2", color:"#9B70E0", data:[
-        {label:"Jan/25",mwh:18.6,dist:5493.53,forn:4934.69,ccee:0,livre:10428.22,cativo:10428.22,eco:0,eco_pct:0,cm:560.66},
-        {label:"Fev/25",mwh:16.8,dist:5539.07,forn:4514.12,ccee:159.8,livre:10212.99,cativo:10212.99,eco:0,eco_pct:0,cm:607.92},
+        {label:"Jan/25",mwh:18.6,dist:5493.53,forn:4934.69,ccee:0.0,livre:10428.22,cativo:10428.22,eco:0.0,eco_pct:0.0,cm:560.66},
+        {label:"Fev/25",mwh:16.8,dist:5539.07,forn:4514.12,ccee:159.8,livre:10212.99,cativo:10212.99,eco:0.0,eco_pct:0.0,cm:607.92},
         {label:"Mar/25",mwh:18.6,dist:6058.13,forn:4788.62,ccee:508.17,livre:11354.92,cativo:13376.21,eco:2021.29,eco_pct:0.151111,cm:610.48},
-        {label:"Abr/25",mwh:18,dist:5791.05,forn:4722.75,ccee:0,livre:10513.8,cativo:12568.74,eco:2054.94,eco_pct:0.163496,cm:584.1},
+        {label:"Abr/25",mwh:18.0,dist:5791.05,forn:4722.75,ccee:0.0,livre:10513.8,cativo:12568.74,eco:2054.94,eco_pct:0.163496,cm:584.1},
         {label:"Mai/25",mwh:18.6,dist:5988.73,forn:4888.66,ccee:87.6,livre:10964.99,cativo:13416.89,eco:2451.9,eco_pct:0.182747,cm:589.52},
-        {label:"Jun/25",mwh:18,dist:6213.28,forn:5052.17,ccee:317.69,livre:11583.14,cativo:16022.65,eco:4439.51,eco_pct:0.277077,cm:643.51},
+        {label:"Jun/25",mwh:18.0,dist:6213.28,forn:5052.17,ccee:317.69,livre:11583.14,cativo:16022.65,eco:4439.51,eco_pct:0.277077,cm:643.51},
         {label:"Jul/25",mwh:18.6,dist:6228.52,forn:5054.49,ccee:391.42,livre:11674.43,cativo:15317.12,eco:3642.7,eco_pct:0.237819,cm:627.66},
         {label:"Ago/25",mwh:19.388,dist:6448.4,forn:5292.32,ccee:346.94,livre:12087.66,cativo:17013.65,eco:4926.0,eco_pct:0.289532,cm:623.46},
         {label:"Set/25",mwh:19.644,dist:7403.47,forn:5354.04,ccee:344.93,livre:13102.44,cativo:18600.57,eco:5498.13,eco_pct:0.295589,cm:666.99},
@@ -449,34 +446,28 @@ const CLIENTS_DB = {
         {label:"Dez/25",mwh:19.808,dist:7680.13,forn:5711.34,ccee:298.34,livre:13689.81,cativo:17859.86,eco:4170.05,eco_pct:0.233487,cm:691.13},
         {label:"Jan/26",mwh:20.837,dist:7863.82,forn:5284.02,ccee:390.6,livre:13538.44,cativo:18845.9,eco:5307.47,eco_pct:0.281625,cm:649.73},
         {label:"Fev/26",mwh:19.363,dist:7073.49,forn:5020.6,ccee:813.5,livre:12907.59,cativo:16138.42,eco:3230.83,eco_pct:0.200195,cm:666.61},
-        {label:"Mar/26",mwh:23.885,dist:7590.42,forn:6322.58,ccee:732.95,livre:14645.95,cativo:18287.98,eco:3642.03,eco_pct:0.199149,cm:613.19},
-        {label:"Abr/26",mwh:21.521,dist:7181.78,forn:5504.67,ccee:798.95,livre:13485.4,cativo:16975.43,eco:3490.03,eco_pct:0.205593,cm:626.62},
-        {label:"Mai/26",mwh:20.215,dist:7149.01,forn:5177.3,ccee:1040.39,livre:13366.7,cativo:16972.6,eco:3605.9,eco_pct:0.212454,cm:661.23},
-        {label:"Jun/26",mwh:22.078,dist:7576.4,forn:5591.51,ccee:884.35,livre:14052.26,cativo:18618.59,eco:4566.33,eco_pct:0.245257,cm:636.48},
-        {label:"Jul/26",mwh:21.689,dist:8223.46,forn:5463.35,ccee:768.21,livre:14455.02,cativo:19192.1,eco:4737.09,eco_pct:0.246825,cm:666.47},
-        {label:"Ago/26",mwh:19.182,dist:7722.64,forn:4830.49,ccee:689.34,livre:13242.47,cativo:17772.98,eco:4530.51,eco_pct:0.25491,cm:690.36}
+        {label:"Mar/26",mwh:23.532,dist:7590.42,forn:6322.58,ccee:732.95,livre:14645.95,cativo:18287.98,eco:3642.03,eco_pct:0.199149,cm:622.4},
+        {label:"Abr/26",mwh:21.202,dist:7181.78,forn:5504.67,ccee:798.95,livre:13485.4,cativo:16975.43,eco:3490.03,eco_pct:0.205593,cm:636.03},
+        {label:"Mai/26",mwh:19.911,dist:7149.01,forn:5177.3,ccee:1040.39,livre:13366.7,cativo:16972.6,eco:3605.9,eco_pct:0.212454,cm:671.31}
       ]},
       { id:"u3", name:"Unidade 4", color:"#4361EE", data:[
-        {label:"Jan/25",mwh:57.067,dist:19028.89,forn:7736.73,ccee:0,livre:26765.62,cativo:26765.62,eco:0,eco_pct:0,cm:469.02},
-        {label:"Fev/25",mwh:62.462,dist:20417.62,forn:8338.94,ccee:584.17,livre:29340.73,cativo:29340.73,eco:0,eco_pct:0,cm:469.74},
-        {label:"Mar/25",mwh:61.568,dist:19240,forn:8362.68,ccee:2100.29,livre:29702.97,cativo:43977.74,eco:14274.76,eco_pct:0.324591,cm:482.44},
+        {label:"Jan/25",mwh:57.067,dist:19028.89,forn:7736.73,ccee:0.0,livre:26765.62,cativo:26765.62,eco:0.0,eco_pct:0.0,cm:469.02},
+        {label:"Fev/25",mwh:62.462,dist:20417.62,forn:8338.94,ccee:584.17,livre:29340.73,cativo:29340.73,eco:0.0,eco_pct:0.0,cm:469.74},
+        {label:"Mar/25",mwh:61.568,dist:19240.0,forn:8362.68,ccee:2100.29,livre:29702.97,cativo:43977.74,eco:14274.76,eco_pct:0.324591,cm:482.44},
         {label:"Abr/25",mwh:59.54,dist:19002.79,forn:8067.31,ccee:1685.08,livre:28755.18,cativo:43460.11,eco:14704.93,eco_pct:0.338355,cm:482.96},
         {label:"Mai/25",mwh:61.568,dist:20167.01,forn:8342.12,ccee:480.8,livre:28989.93,cativo:47275.75,eco:18285.82,eco_pct:0.386791,cm:470.86},
         {label:"Jun/25",mwh:59.54,dist:19476.27,forn:8114.05,ccee:1377.75,livre:28968.07,cativo:47651.12,eco:18683.05,eco_pct:0.39208,cm:486.53},
         {label:"Jul/25",mwh:74.155,dist:22421.62,forn:11285.34,ccee:1488.16,livre:35195.12,cativo:54662.45,eco:19467.34,eco_pct:0.356137,cm:474.62},
         {label:"Ago/25",mwh:61.568,dist:20422.35,forn:8788.69,ccee:1366.93,livre:30577.97,cativo:51859.79,eco:21281.83,eco_pct:0.410372,cm:496.65},
         {label:"Set/25",mwh:68.694,dist:20915.26,forn:11623.01,ccee:1063.62,livre:33601.89,cativo:54353.17,eco:20751.28,eco_pct:0.381786,cm:489.15},
-        {label:"Out/25",mwh:75.182,dist:23723,forn:13252.8,ccee:1079.85,livre:38055.65,cativo:52076.48,eco:14020.83,eco_pct:0.269235,cm:506.18},
+        {label:"Out/25",mwh:75.182,dist:23723.0,forn:13252.8,ccee:1079.85,livre:38055.65,cativo:52076.48,eco:14020.83,eco_pct:0.269235,cm:506.18},
         {label:"Nov/25",mwh:69.506,dist:24854.54,forn:12158.29,ccee:1118.39,livre:38131.22,cativo:52165.47,eco:14034.26,eco_pct:0.269033,cm:548.6},
         {label:"Dez/25",mwh:65.091,dist:21277.96,forn:10420.1,ccee:1047.3,livre:32745.36,cativo:44228.3,eco:11482.94,eco_pct:0.259629,cm:503.07},
         {label:"Jan/26",mwh:65.503,dist:22111.36,forn:11707.15,ccee:1310.2,livre:35128.71,cativo:44191.3,eco:9062.6,eco_pct:0.205076,cm:536.29},
         {label:"Fev/26",mwh:78.328,dist:23194.95,forn:18942.8,ccee:2616.83,livre:44754.58,cativo:47237.78,eco:2483.2,eco_pct:0.052568,cm:571.37},
-        {label:"Mar/26",mwh:79.124,dist:24281.47,forn:20111.33,ccee:2659.24,livre:47052.04,cativo:49132.39,eco:2080.36,eco_pct:0.042342,cm:594.66},
-        {label:"Abr/26",mwh:74.95,dist:22853.16,forn:14286.75,ccee:2659.24,livre:39799.15,cativo:46446.77,eco:6647.63,eco_pct:0.143124,cm:531.01},
-        {label:"Mai/26",mwh:64.024,dist:21476.47,forn:10382.58,ccee:3588.53,livre:35447.58,cativo:44290.68,eco:8843.09,eco_pct:0.19966,cm:553.66},
-        {label:"Jun/26",mwh:60.676,dist:19029.41,forn:10121.44,ccee:2981.16,livre:32132.01,cativo:39816.62,eco:7684.61,eco_pct:0.193,cm:529.57},
-        {label:"Jul/26",mwh:68.161,dist:21251.32,forn:11417.6,ccee:2280.45,livre:34949.37,cativo:44639.9,eco:9690.53,eco_pct:0.217082,cm:512.75},
-        {label:"Ago/26",mwh:66.744,dist:20642.21,forn:11119.89,ccee:2217.24,livre:33979.34,cativo:43353.36,eco:9374.02,eco_pct:0.216224,cm:509.1}
+        {label:"Mar/26",mwh:78.322,dist:24281.47,forn:20111.33,ccee:2963.34,livre:47356.14,cativo:49436.5,eco:2080.36,eco_pct:0.042081,cm:604.63},
+        {label:"Abr/26",mwh:74.211,dist:22853.16,forn:14286.75,ccee:2659.24,livre:39799.15,cativo:46446.77,eco:6647.63,eco_pct:0.143124,cm:536.3},
+        {label:"Mai/26",mwh:63.742,dist:21476.47,forn:10382.58,ccee:3588.53,livre:35447.58,cativo:44290.68,eco:8843.09,eco_pct:0.19966,cm:556.11}
       ]}
     ]
   }
